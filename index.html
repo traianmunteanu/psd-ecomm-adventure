@@ -3,13 +3,9 @@
     <head>
         <meta charset="utf-8">
         <meta http-equiv="x-ua-compatible" content="ie=edge">
-        <title></title>
+        <title>E-commerce Home</title>
         <meta name="description" content="">
         <meta name="viewport" content="width=device-width, initial-scale=1">
-
-        <link rel="apple-touch-icon" href="apple-touch-icon.png">
-        <!-- Place favicon.ico in the root directory -->
-
         <link rel="stylesheet" href="css/normalize.css">
         <link rel="stylesheet" href="css/main.css">
         <script src="js/vendor/modernizr-2.8.3.min.js"></script>
@@ -19,9 +15,69 @@
             <p class="browserupgrade">You are using an <strong>outdated</strong> browser. Please <a href="http://browsehappy.com/">upgrade your browser</a> to improve your experience.</p>
         <![endif]-->
 
-        <!-- Add your site or application content here -->
-        <p>Hello world! This is HTML5 Boilerplate.</p>
+        <div id="wrapper">
+            <header>
+                <section id="top-area">
+                    <p>Phone orders: 1-800-0000 | Email us: <a href="mailto:office@shop.com">office@shop.com</a></p>
+                </section><!-- end top-area -->
+                <section id="action-bar">
+                    <div id="logo">
+                        <a href=""><span id="logo-accent">e</span>Commerce</a>
+                    </div><!-- end logo -->
 
+                    <nav class="dropdown">
+                        <ul>
+                            <li>
+                                <a href="#">Shop by Category <img src="img/down-arrow.gif" alt="Shop by Category"></a>
+                                <ul>
+                                    <li><a href="#">Laptops</a></li>
+                                    <li><a href="#">Desktop PC</a></li>
+                                    <li><a href="#">Smartphones</a></li>
+                                    <li><a href="#">Tablets</a></li>
+                                </ul>
+                            </li>
+                        </ul>
+                    </nav>
+
+                    <div id="search-form">
+                        <form action="#" method="get">
+                            <input type="search" name="search" placeholder="Search by Keyword" class="search">
+                            <input type="submit" value="Search" class="search submit"></form>
+                    </div><!-- end search-form -->
+
+                    <div id="user-menu">
+<!--                         <nav id="signin" class="dropdown">
+                            <ul>
+                                <li>
+                                    <a href="#"><img src="img/user-icon.gif" alt="Sign In">Sign In <img src="img/down-arrow.gif" alt="Sign In"></a>
+                                    <ul>
+                                        <li><a href="#">Sign In</a></li>
+                                        <li><a href="#">Sign Up</a></li>
+                                    </ul>
+                                </li>
+                            </ul>
+                        </nav>
+ -->
+                        <nav class="dropdown">
+                            <ul>
+                                <li>
+                                    <a href="#"><img src="img/user-icon.gif" alt="John Doe">John Doe <img src="img/down-arrow.gif" alt="John Doe"></a>
+                                    <ul>
+                                        <li><a href="#">Order History</a></li>
+                                        <li><a href="#">Wishlist</a></li>
+                                        <li><a href="#">Sign Out</a></li>
+                                    </ul>
+                                </li>
+                            </ul>
+                        </nav>
+                    </div><!-- end user-menu -->
+
+                    <div id="view-cart">
+                        <a href=""><img src="" alt=""></a>
+                    </div>
+                </section><!-- end action-bar -->
+            </header>
+        </div><<!-- end wrapper -->
         <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.3/jquery.min.js"></script>
         <script>window.jQuery || document.write('<script src="js/vendor/jquery-1.11.3.min.js"><\/script>')</script>
         <script src="js/plugins.js"></script>
